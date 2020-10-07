@@ -23,5 +23,5 @@ data+=']'
 curl --user "$PUBLIC_KEY:$PRIVATE_KEY" --digest --include \
    --header "Accept: application/json" \
    --header "Content-Type: application/json" \
-   --request POST "https://cloud.mongodb.com/api/atlas/v1.0/groups/$PROJECT_ID/whitelist?pretty=true" \
+   --request POST "https://cloud.mongodb.com/api/atlas/v1.0/groups/$PROJECT_ID/accessList?pretty=true" \
    --data "$data"
