@@ -11,7 +11,7 @@ Create a file named `dev.config`.  The file needs three constants:
 - PRIVATE_KEY: Your Atlas Private API Key
 - PROJECT_ID: The ID of the Atlas Project Where You Want to Add the IP Access List Entries
 
-If you rename your config file, update the first line of whitelister.sh appropriately.
+If you rename your config file, update the first line of accesslister.sh appropriately.
 
 Run the script by executing `./accesslister.sh`.
 
